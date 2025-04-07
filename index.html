@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="icon" href="images/OIP.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="first-top-div1">
+        <a href="#">
+            <button class="logo-button1">
+                <img src="images/amazonicon1.png" alt="Amazon logo">
+            </button>
+        </a>
+        <button class="open-btn" onclick="openModal()">
+            Update Location
+        </button>
+
+        <div class="modal-overlay" id="locationModal">
+          <div class="modal-box">
+            <button class="close-btn" onclick="closeModal()">&times;</button>
+            <h3>
+                Update Location
+            </h3>
+            <p>
+                select a delivery location to see availability
+            </p>
+        
+            <button class="apply-btn">
+                Sign in to see your addresses
+            </button>
+            <p>
+                or enter an Indian pincode
+            </p>
+        
+            <input type="text" placeholder="Enter Pincode">
+            <button class="apply-btn" style="margin-top: 10px;">Apply</button>
+          </div>
+        </div>
+        <div class="main-search">
+            <input type="text" class="main-serach-input" placeholder="Search Amazon.in">
+        </div>
+        <div class="lan">
+            <button class="button-lan">EN</button>
+        </div>
+        <div class="help">
+            <button class="help-button">Hello,sign in <br> Account & Lists</button>
+        </div>
+        <div class="cart">
+            <img class="cart1" src="images/cart.png" alt="cart">
+        </div>
+    </div>
+</body>
+</html>
